@@ -1,5 +1,59 @@
-extends layout
+doctype html
+html
+  
+    include ./partials/header
 
-block content
-  h1= title
-  p Welcome to #{title}
+  
+
+    <!-- HEADER SECTION -->
+    #header-section
+      .container
+        .row.centered
+          .col-md-8.col-md-offset-2
+            h1 <strong>Hi there!</strong>
+            br
+            br
+            br
+            h2 I'm <strong id="name">Lokesh Thummala </strong>and this is my online portfolio.</h2>
+            br
+            br
+            br
+            br
+            br
+            br
+            br
+            <a class="bounce" href="#about-section">  <img src="images/down.png" alt="down arrow"> </a>
+
+    <!--ABOUT SECTION -->
+    #about-section
+      .container
+        .row.main-top-margin.text-center
+          .col-md-8.col-md-offset-2
+            <br>
+            h1 Who Am I?
+            <br>
+            h4 Currently, I am a Computer Programmer student at Georgian College. <br><br>I pride myself on reliable communication and being an easy to work with, friendly guy.
+        
+        <!-- Main Heading-->
+        .row.main-low-margin.text-center
+          .col-md-3
+            img(class="img-circle" src="images/male-user.png" alt="my photo")
+            h4 <strong>Lokesh Thummala</strong>
+            p Computer Programmer<br/>Connect with me on:
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook image"></a>
+            <a href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="twitter image"></a>
+            <a href="https://www.instagram.com/?hl=en"><img src="images/instagram.png" alt="instagram image"></a>
+            <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="linkedin image"></a>
+
+          .col-md-7.col-sm-7.col-md-offset-1.text-justify
+            h3 Little More About Myself
+            <br>
+            p I was born in Andhra Pradesh, India. I had completed Bachelor's in Information Technology in India at JNTUK, AP, India. I had done a couple of projects in bachelor's, and their details are provided in the <a href="#products-section">MY-WORK </a> section. I love working up to new horizons, making new friends with people, and exploring the world.
+            <br>
+            p I am a computer engineer who loves analyzing and breaking/building things, and as a proof of that you can read my portfolio and check out my accomplishments here. I am currently available for co-op work, if you would like to hire me, please use this <a href="#contact-section">CONTACT</a> form to get in touch with me.
+
+    
+
+
+
+
