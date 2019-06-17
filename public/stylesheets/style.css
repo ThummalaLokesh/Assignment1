@@ -10,6 +10,10 @@ body {
     margin-top: 40px;
     line-height:16px;
 }
+
+#name {
+    font-family: 'Courgette', cursive;
+  }
 /* ==========================================================================
    HEADERS
    ========================================================================== */
@@ -19,9 +23,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     line-height:40px;
    
-}
-#name {
-  font-family: 'Courgette', cursive;
 }
 
 h1 {
@@ -58,7 +59,7 @@ p {
     text-align:justify;
 }
 /* ==========================================================================
-   Bouncing down arrow
+   Bouncing down arrow. Inspired by https://codepen.io/bitstarr/pen/XjaJGz and I modified to myself.
    ========================================================================== */
 .bounce {
     position:relative;
@@ -101,25 +102,6 @@ p {
 .color-red {
     color:#ff0000;
 }
-
-.color-green {
-    color:#07BB00;
-}
-
-.color-light-blue {
-    color:#BB00BB;
-}
-
-.color-blue {
-    color:#0052FF;
-}
-.color-brown {
-    color:#EB8F2D;
-}
-.color-black {
-    color:#000000;
-}
-
 /* ==========================================================================
    HEADER SECTION
    ========================================================================== */
@@ -197,11 +179,19 @@ color: #FFFFFF;
 }
 
 /* ==========================================================================
+   Services SECTION
+   ========================================================================== */
+   #services-section {
+    background-color: #FAFAFA;
+   
+}
+
+/* ==========================================================================
    CONTACT SECTION
    ========================================================================== */
 
 #contact-section {
-    background-color: #FAFAFA;
+    background-color: #FFFFFF;
 }
 /* ==========================================================================
    FOOTER SECTION
